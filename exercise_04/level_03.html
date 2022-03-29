@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 03</title>
+</head>
+<body>
+    <script>
+
+        // 1.
+        // (function userIdGeneratedByUser() {
+
+        //     let id = '';
+        //     let numberOf = prompt('Number of Characters: ')
+        //     let howMuch = prompt('How much ids do you wanr to print? ')
+        //     let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+
+        //     for (var i = 0; i < howMuch; i++) {
+
+        //         for (var e = 0; e < numberOf; e++) {
+        //             id += characters[Math.round(Math.random() * (characters.length - 1))]
+        //         }
+
+        //         console.log(id)
+        //         id = 0
+        //     }
+        // })()
+
+        // 2.
+        // const generateColors = (base, numberOf) => {
+
+        //     let colors = []
+
+        //     if (base == 'hexa') {
+
+        //         let color = 0
+
+        //         for (var i = 0; i < numberOf; i++) {
+
+        //             for (var e = 0; e < 6; e++) {
+        //                 color += Math.round(Math.random() * 16).toString(16)
+        //             }
+
+        //             colors.push(`#${color}`)
+        //             color = ''
+        //         }
+
+        //     }
+
+        //     else if (base == 'rgb') {
+
+        //         let color = []
+
+        //         for (var i = 0; i < numberOf; i++) {
+
+        //             for (var e = 0; e < 3; e++) {
+        //                 color.push(Math.round(Math.random() * 255))
+        //             }
+
+        //             colors.push(`rgb(${color})`)
+        //             color = []
+        //         }
+        //     }
+
+        //     return colors
+        // }
+
+        // console.log(generateColors('rgb', 3))
+
+        // 3.
+        // const shuffleArray = (...arr) => {
+
+        //     var i, j, x;
+
+        //     for (i = 0; i < arr.length; i++) {
+
+        //         j = Math.round(Math.random() * (arr.length - 1) )
+        //         x = arr[i]
+        //         arr[i] = arr[j]
+        //         arr[j] = x
+        //     }
+
+        //     return arr
+        // }
+
+        // console.log(shuffleArray(1, 2, 3, 4, 5))
+
+
+        // 4. 
+        // const factorial = (number) => {
+
+        //     var result, i;
+        //     result = 1
+
+        //     document.write(`${number}! = `)
+
+        //     for (i = number; i >= 1; i--) {
+        //         result *= i 
+        //         if (i == 1) {
+        //             document.write(`${i} = `)
+        //         } else {
+        //             document.write(`${i} * `)
+        //         }
+        //     }
+
+        //     document.write(result)
+        // }
+
+        // factorial(5)
+
+        // 5.
+        // const isEmpty = (value) => {
+
+        //     if (value.length == 0) {
+        //         console.log('It is empty')
+        //     } else {
+        //         console.log("It isn't empty")
+        //     }
+        // }
+
+        // isEmpty([])
+
+    </script>
+</body>
+</html>
