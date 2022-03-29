@@ -1,0 +1,92 @@
+<html lang="pt-br">
+<head>
+    <title>Level 02</title>
+</head>
+<body>
+    
+    <script>
+
+        // 1. ------------------------------------------------------
+        // let firstGrade = parseFloat(prompt('Enter your first grade (0-100):'))
+        // let secondGrade = parseFloat(prompt('Enter your first grade (0-100):'))
+        // let average = Math.round((firstGrade + secondGrade) / 2)
+
+    
+        //     if (average >= 90 && average <= 100){
+        //         document.write('A')
+        //     }
+
+        //     else if (average >= 80 && average <= 89){
+        //         document.write('B')
+        //     }
+
+        //     else if (average >= 70 && average <= 79){
+        //         document.write('C')
+        //     }
+
+        //     else if (average >= 60 && average <= 69){
+        //         document.write('D')
+        //     }
+
+        //     else if (average >= 50 && average <= 59){
+        //         document.write('E')
+        //     }
+
+        //     else if (average >= 0 && average <= 49){
+        //         document.write('F')
+        //     } 
+            
+        //     else {
+        //         document.write('You enter a wrong value.')
+        //     } 
+
+        // 2. ------------------------------------------------------
+
+        // let month = prompt('Enter the current month:').toLowerCase()
+
+        
+        // if (month == 'december' || month == 'january' || month == 'february') {
+        //     document.write("It's Summer!")
+        // } 
+        
+        // else if (month == 'march' || month == 'april' || month == 'may') {
+        //     document.write("It's Autumn!")
+        // }
+
+        // else if (month == 'june' || month == 'july' || month == 'august') {
+        //     document.write("It's Winter!")
+        // } 
+
+        // else if (month == 'march' || month == 'april' || month == 'may') {
+        //     document.write("It's Autumn!")
+        // } 
+
+        // else {
+        //     document.write("I don't know this month :(")
+        // }
+
+        // 3. ------------------------------------------------------
+
+        let day = prompt('What is the day today?').toLocaleLowerCase()
+
+        console.log(day)
+
+        if (day == 'monday' 
+        || day == 'tuesday' 
+        || day == 'wednesday' 
+        || day == 'thursday'
+        || day == 'friday') {
+            document.write(`${day} is a working day`)
+        }
+
+        else if (day == 'saturday' || day == "sunday") {
+            document.write(`${day} is a weekend`)
+        }
+
+        else {
+            document.write("I don't know this day :(")
+        }
+
+    </script>
+</body>
+</html>
